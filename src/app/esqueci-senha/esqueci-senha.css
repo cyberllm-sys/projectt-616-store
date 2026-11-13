@@ -1,0 +1,104 @@
+#esqueci-senha {
+    background-color: var(--corFundo);
+}
+
+.card-esqueci-senha {
+    width: 500px;
+    background-color: #d7d7d1;;
+    border-radius: 8px;
+    margin: 60px;
+    padding: 60px;
+    padding-bottom: 30px;
+}
+
+/* Titulo esqueci senha e texto */
+.texto-esqueci-senha {
+    margin-bottom: 30px;
+}
+
+.titulo-esqueci-senha {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--preto);
+    text-align: center;
+}
+
+.paragrafo-esqueci-senha {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: var(--preto);
+    text-align: center;
+}
+
+/* Formulário esqueci senha */
+.esqueci-senha-form {
+    margin-bottom: 30px;
+}
+
+.label-email {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: var(--preto);
+    margin-bottom: 3px;
+}
+
+#email {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#btn-enviar {
+    border: none;
+    border-radius: 25px;
+    background-color: var(--amarelo);
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--preto);
+    padding: 10px;
+}
+
+#btn-enviar:hover {
+    background-color: var(--amareloHover);
+}
+
+.link-login {
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+    
+    .card-esqueci-senha {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .titulo-esqueci-senha {
+        font-size: 24px;
+    }
+
+    .paragrafo-esqueci-senha {
+        font-size: 14px;
+    }
+
+    #btn-enviar {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}

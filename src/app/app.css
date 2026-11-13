@@ -1,0 +1,157 @@
+/* Header superior */
+
+#header-top {
+    background-color: #171717;
+    padding: 20px;
+}
+
+
+.input-group {
+    max-width: 900px;
+    height: 30px;
+    margin: 6px;
+}
+
+.input-group-text {
+    color: var(--preto);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.links-header-top {
+    text-decoration: none;
+}
+
+.form-control {
+    background-color: #d9d9d9;
+    border: none;
+    box-shadow: none;
+}
+
+.icones-header {
+    font-size: 30px;
+}
+
+/* Header inferior */
+
+#header-bottom {
+    background-color: #c42021;
+    padding: 5px;
+}
+
+.links-navbar {
+    text-decoration: none;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+.links-navbar:hover {
+    background-color: var(--vermelhoHover);
+    border-radius: 10px;
+}
+
+/* Botões */
+
+.btn-login {
+    background-color: var(--vermelho);
+    border-radius: 8px;
+    padding: 8px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    background-color: var(--vermelhoHover);
+}
+
+.btn-criar-conta {
+    background-color: var(--vermelho);
+    border-radius: 8px;
+    padding: 8px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-criar-conta:hover {
+    background-color: var(--vermelhoHover);
+}
+
+/* Rodapé */
+
+#footer {
+    background-color: #171717;
+}
+
+.footer-messages {
+    padding: 16px 24px;
+}
+
+.icons-and-message {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.messages {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #ececdc;
+}
+
+.span-first {
+    display: block;
+}
+
+#social-media-icons {
+    display: flex;
+    gap: 12px;
+}
+
+i {
+    color: white;
+    font-size: 26px;
+}
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+    /* Header */
+    #header-top {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .lista-navbar {
+        flex-wrap: wrap;
+        gap: 6px 12px !important;
+    }
+
+    /* Footer */
+    .footer-messages {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .messages {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
