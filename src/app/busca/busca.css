@@ -41,7 +41,7 @@
     margin-bottom: 20px;
 }
 
-/* Card do produto */
+/* cardzada  */
 
 .produto-card {
     border-radius: 6px;
@@ -84,7 +84,7 @@
     right: 12px;
 }
 
-/* Botão de adicionar ao carrinho e ver detalhes */
+/* Botão de adicionar ao carrinho e ver detalhes (verificar com o lucas) */
 
 .btn-ver-detalhes {
     background-color: var(--vermelho);
